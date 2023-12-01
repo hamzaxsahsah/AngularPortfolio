@@ -1,6 +1,3 @@
-// function name(){
-//     alert("I am Lucifer");
-//   }
 
 function createTree() {
 
@@ -9,133 +6,40 @@ function createTree() {
 
         console.log(treeData);
 
-        treeData =
-        {
-            "name": "interests",
+        treeData = {
+            "name": "Hamza Sahsah",
             "children": [
-                {
-                    "name": "art",
+              {
+                "name": "Software Engineering",
+                "children": [
+                  { "name": "Web Development",
                     "children": [
-                        { "name": "design" },
-                        { "name": "painting" }
+                      { "name": "Angular" },
+                      { "name": "Django" },
+                      { "name": "Node" },
+                      { "name": "Odoo" },
+                      { "name": "React" },
+                      { "name": "Ionic" }
                     ]
-                },
-                {
-                    "name": "sports",
+                  },
+                  { "name": "Game Development",
                     "children": [
-                        {
-                            "name": "design",
-                            "children": [
-                                { "name": "design" },
-                                { "name": "painting" }
-                            ]
-                        },
-                        {
-                            "name": "painting",
-                            "children": [
-                                { "name": "design" },
-                                { "name": "painting" }
-                            ]
-                        }
+                      { "name": "Godot Engine" },
+                      { "name": "Unity Engine" }
                     ]
-                },
-                {
-                    "name": "sports",
-                    "children": [
-                        {
-                            "name": "design",
-                            "children": [
-                                { "name": "design" },
-                                { "name": "painting" }
-                            ]
-                        },
-                        {
-                            "name": "painting",
-                            "children": [
-                                { "name": "design" },
-                                { "name": "painting" }
-                            ]
-                        }
-                    ]
-                }
-                , {
-                    "name": "sports",
-                    "children": [
-                        {
-                            "name": "design",
-                            "children": [
-                                { "name": "design" },
-                                { "name": "painting" }
-                            ]
-                        },
-                        {
-                            "name": "painting",
-                            "children": [
-                                { "name": "design" },
-                                { "name": "painting" }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "sports",
-                    "children": [
-                        {
-                            "name": "design",
-                            "children": [
-                                { "name": "design" },
-                                { "name": "painting" }
-                            ]
-                        },
-                        {
-                            "name": "painting",
-                            "children": [
-                                { "name": "design" },
-                                { "name": "painting" }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "sports",
-                    "children": [
-                        {
-                            "name": "design",
-                            "children": [
-                                { "name": "design" },
-                                { "name": "painting" }
-                            ]
-                        },
-                        {
-                            "name": "painting",
-                            "children": [
-                                { "name": "design" },
-                                { "name": "painting" }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "name": "sports",
-                    "children": [
-                        {
-                            "name": "design",
-                            "children": [
-                                { "name": "design" },
-                                { "name": "painting" }
-                            ]
-                        },
-                        {
-                            "name": "painting",
-                            "children": [
-                                { "name": "design" },
-                                { "name": "painting" }
-                            ]
-                        }
-                    ]
-                }
+                  }
+                ]
+              },
+              {
+                "name": "Sports",
+                "children": [
+                  { "name": "Football" },
+                  { "name": "Rugby" }
+                ]
+              }
             ]
-        };
+          };
+          
 
         console.log(treeData);
 
